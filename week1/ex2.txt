@@ -1,0 +1,77 @@
+    1  sudo bash
+    2  whoami
+    3  hostname
+    4  less
+    5  cd
+    6  cd C:\Users\Orina\Desktop\os\week1
+    7  ls
+    8  lsdir
+    9  dir
+   10  cd ~
+   11  pwd
+   12  ls
+   13  cd ..
+   14  cd C:\Users\Orina\Desktop\os
+   15  ls
+   16  cd home
+   17  ls
+   18  cd orina
+   19  ls
+   20  cd .. ..
+   21  cd ..
+   22  sudo bash
+   23  cd /mnt/c/Users/Orina/Desktop/os
+   24  ls
+   25  cd week1cd
+   26  cd week1
+   27  ls /user/bin
+   28  ls /usr/bin
+   29  sort -r | grep "gcc" /usr/bin > ex1.txt
+   30  sort -r | ls /usr/bin | grep "gcc" > ex1.txt
+   31  ls |  grep "gcc"  /usr/bin
+   32  ls |  grep "gcc" < /usr/bin
+   33  ls |  grep "gcc" | /usr/bin
+   34  ls /usr/bin | grep "gcc"
+   35  ls /usr/bin 
+   36  ls /usr/bin | grep seq
+   37  ls /usr/bin | grep *seq*
+   38  ls /usr/bin | grep "*seq*"
+   39  less
+   40  less /mnt/c/Users/Orina/Desktop/учёба/OS/пидрилас.txt
+   41  more /mnt/c/Users/Orina/Desktop/учёба/OS/пидрилас.txt
+   42  cat /mnt/c/Users/Orina/Desktop/учёба/OS/пидрилас.txt
+   43  sort -r
+   44  sort -r < ls
+   45  sort -r | ls
+   46  ls /usr/bin | grep ".*gcc.*" | sort -r 
+   47  ls /usr/bin 
+   48  ls /usr/bin | grep "*"
+   49  grep ".*gcc.*" | ls /usr/bin
+   50  grep ".*gcc.*" < ls /usr/bin
+   51  grep ".*gcc.*" /usr/bin
+   52  grep ".*gcc.*" < /usr/bin
+   53  grep ".*gcc.*" < ls /usr/bin
+   54  grep ".*gcc.*" ls /usr/bin
+   55  grep ".*gcc.*" | ls /usr/bin
+   56  grep ".*gcc.*" | < ls /usr/bin
+   57  ls -d *gcc* /usr/bin
+   58  ls /usr/bin
+   59  ls -d *gcc* /usr/bin
+   60  ls -d gcc /usr/bin
+   61  ls /usr/bin
+   62  ls /usr/bin -d
+   63  ls /usr/bin -d *gcc*
+   64  ls /usr/bin -l *gcc*
+   65  grep
+   66  grep --help
+   67  ls /usr/bin | grep -i gcc
+   68  ls /usr/bin | grep -i .*gcc.*
+   69  ls /usr/bin | grep -i .*a.*
+   70  ls /usr/bin | grep -i .*vmware.*
+   71  ls /usr/bin -r | grep -i .*vmware.*
+   72  ls /usr/bin -r | grep -i .*vmware.* > ex1.txt
+   73  ls /usr/bin -r | grep -i .*gcc.* > ex1.txt
+   74  sudo apt install gcc
+   75  ls /usr/bin -r | grep -i .*gcc.* > ex1.txt
+   76  history
+   77  history > ex2.txt
