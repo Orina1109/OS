@@ -1,0 +1,3 @@
+Every time ex1 is launched it outs different PIDs every time
+It can be explained, that when process is being created, it takes a PID that is not currently taken by another process.
+By the output I can conclude, that child process gets incremented PID of its parent, if it is possible

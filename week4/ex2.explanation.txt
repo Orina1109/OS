@@ -1,0 +1,2 @@
+pstree shows that ./ex2 process has 3 child processes, that were created by fork function call
+if we change 3 to 5, 5 procresses will be created and will be shown by pstree command
