@@ -1,0 +1,2 @@
+Physical adress is an exactly adress, where the data is stored in physical memory
+Virtual adress is an adress, that uses for transforming it into physical adress, by adding page offset, to find real (physical) adress of data, stored in memory, whereas virtual adress is used for adresses in virtual pages in virtual memory

@@ -1,0 +1,3 @@
+Number of bytes in virtual memory = 2^16 bytes
+So, number of entries in the page table = 2^16/page_size = 
+ = 2^16/2^13 = 2^3 = 8 entries
