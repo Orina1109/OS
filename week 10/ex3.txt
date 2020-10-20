@@ -1,0 +1,6 @@
+    1  cmod 666 _ex3.txt
+    2  chmod 666 _ex3.txt
+    3  chmod 767 _ex3.txt
+    4  chmod 777 _ex3.txt
+    5  history > ez3.txt
+    6  history > ex3.txt

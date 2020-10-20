@@ -1,0 +1,20 @@
+    1  history
+    2  link ../week01/file.txt _ex2.txt
+    3  link /mnt/c/Users/Orina/Desktop/os/week 01/file.txt _ex2.txt
+    4  link --help
+    5  link "/mnt/c/Users/Orina/Desktop/os/week 01/file.txt" _ex2.txt
+    6  link "/mnt/c/Users/Orina/Desktop/os/week1/file.txt" _ex2.txt
+    7  find "/mnt/c/Users/Orina/Desktop/os/week1/file.txt" -inum inodenumber
+    8  find "/mnt/c/Users/Orina/Desktop/os/week1/file.txt" -inum
+    9  find "/mnt/c/Users/Orina/Desktop/os/week1/file.txt" -inum inodenumber
+   10  find --help
+   11  find -inum "/mnt/c/Users/Orina/Desktop/os/week1/file.txt"
+   12  find "/mnt/c/Users/Orina/Desktop/os/week1/file.txt"
+   13  find "/mnt/c/Users/Orina/Desktop/os/week1/file.txt" -inum
+   14  ls -li "/mnt/c/Users/Orina/Desktop/os/week1/file.txt"
+   15  find "/mnt/c/Users/Orina/Desktop/os/week1/file.txt" -inum inodenumber -exec rm {}{}
+   16  find "/mnt/c/Users/Orina/Desktop/os/week1/file.txt" -inum inodenumber -exec rm {}
+   17  find "/mnt/c/Users/Orina/Desktop/os/week1/file.txt" -inum inodenumber -exec rm {}\
+   18  find / -lname "/mnt/c/Users/Orina/Desktop/os/week1/file.txt"
+   19  histort > ex2.txt
+   20  history > ex2.txt
