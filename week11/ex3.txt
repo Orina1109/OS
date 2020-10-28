@@ -1,0 +1,7 @@
+As fork craetes threads, that are shearing same adress spaces, variables and buffers
+the output stream is sheared as well. As stdout is line-buffered, so there will nothing appear
+in the console until line-end or buffer flushing. In the first case, stdout buffer is not ended
+by line-ending, so, output is not shown in console. But than one more thread is being created, that
+flushes stdout, and by this reason stdout did output in main thread and child thread as well.
+In case 2 the things are other: main thread flushes stdout before new thread is created, which also
+uses stdout to print line-ending. But stdout already flushed, and no more "Hello" printed, just new line
